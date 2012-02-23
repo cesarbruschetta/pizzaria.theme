@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: pizzaria.theme
+Version: 1.0
+Summary: Pizzaria Theme
+Home-page: https://github.com/cesarbruschetta/pizzaria.theme
+Author: Cesar Augusto
+Author-email: cesarbruschetta@hotmail.com
+License: GPL version 2
+Description: Introduction
+        ============
+        
+        Pizzaria Theme
+        
+        This product may contain traces of nuts.
+        
+        Changelog
+        =========
+        
+        1.0dev (unreleased)
+        -------------------
+        
+        - Initial release
+        
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
