@@ -14,6 +14,7 @@
   <grok:grok package="." />
   
   <i18n:registerTranslations directory="locales" />
+  <plone:static directory="static" type="theme" />
 
   <!-- Register an extension profile to make the product installable
        in Plone -->

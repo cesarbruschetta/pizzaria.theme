@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0;
+	background:#65180c;
+	color:#000;
+}
+div, h1, h2, p, form, label, input, textarea, img, span{
+	margin:0; padding:0;
+}
+
+/*ul{
+	margin:0; 
+	padding:0; 
+	list-style-type:none;
+	font-size:0;
+}*/
+.spacer{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+}
+.style1{color:#a42b5a;}
+.style2{color:#f7a70a;}
+.style3{color:#fa7c01;}
+
+.clear{
+	clear:both;
+}
+.even{
+	background: none repeat scroll 0 0 #DDDDDD;
+}
+
+
+#all{
+	margin:auto;
+	width:950px;	
+}
+
+
+#head {
+	background:url(++theme++pizzaria.theme/images/head_bg.jpg) 0 0 repeat-x;
+	height:330px;
+}
+#header{
+	margin:0 auto;
+	width:950px;
+	height:130px;
+}
+#logo-theme{
+	margin-left:20px;
+}
+
+#navigation{
+	float:left;
+}
+#navigation ul{
+	margin:0;
+	list-style:none;
+	padding:5px 0 0 220px;
+}
+#navigation ul li{
+	padding:3px 10px 3px 10px;
+	width:84px;
+	height:35px;
+	font: normal 11px/30px Arial, Helvetica, sans-serif;
+	float:left;
+	text-align:center;
+}
+#navigation ul li a{
+	background:url(++theme++pizzaria.theme/images/menu.png) 0 0 no-repeat;
+	text-decoration:none;
+	color:#290200;
+	width:100px;
+	height:35px;
+	display:block;
+	text-align:center;
+	text-shadow:#FFF 0.1em 0.1em 0.2em;
+}
+#navigation ul li a:hover{
+	text-decoration:none;
+	color:#FFF;
+	text-shadow:#000 0.1em 0.1em 0.2em;
+	height:35px;
+	display:block;
+}
+#header_1{
+	margin:0 auto;
+	width:950px;
+}
+#food_categories{
+	background:url(++theme++pizzaria.theme/images/food_categories.jpg) 0 15px no-repeat;
+	width:257px;
+	height:185px;
+	float:left;
+	padding-top:20px;
+}
+#food_categories p{
+	padding-left:20px;
+	margin-left:30px;
+	background:url(++theme++pizzaria.theme/images/arrow.png) 5px 12px no-repeat;
+	font:normal 11px/30px Arial, Helvetica, sans-serif;
+	color:#fff;
+	border-top:1px dotted #fefefe;
+}
+#food_categories p a{
+	text-decoration:none;
+	color:#FFF;
+}
+#pizza{
+	float:left;
+	width:611px;
+	height:242px;
+	border:0;
+	padding:15px 0 0 35px;
+}
+
+#content-theme{
+	margin-top:15px;
+	width:950px;
+	/*color:#FAD18E;*/
+	float:left;
+	padding-top:10px;
+	
+	border:dotted 1px #fff;
+	background-color:#e19a32;
+}
+#content p{
+	font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	/*color:#fad18e;*/
+	padding:10px;
+}
+
+#content{
+	background-color:#e6e6fa;
+	padding:10px;
+}
+
+/*
+
+#para p
+{
+font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+color:#fad18e;
+padding:10px;
+}
+
+#cont
+{
+width:608px;
+}
+#cont h1
+{
+font:bold 18px/18px Arial, Helvetica, sans-serif;
+color:#fff;
+padding:20px 0 0 20px;
+}
+#cont h2
+{
+font:bold 18px/18px Arial, Helvetica, sans-serif;
+color:#e9b156;
+padding:10px 0 0 30px;
+}
+#cont h3
+{
+font:bold 14px/18px Arial, Helvetica, sans-serif;
+color:#e9b156;
+padding:0 0 0 30px;
+}
+#offer
+{
+width:195px;
+height:185px;
+background:url(images/hot_offer.jpg) 0 0 no-repeat;
+}
+#offer pre
+{
+font:bold 14px/20px Arial, Helvetica, sans-serif;
+color:#f7a70a;
+padding-left:100px;
+}
+#offer .more
+{
+background:url(images/button.jpg) 125px 0 no-repeat;
+width:61px;
+height:20px;
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+padding-left:140px;
+}
+#offer .more a
+{
+color:#670b00;
+text-decoration:none;
+}
+
+#special
+{
+width:195px;
+height:185px;
+background:url(images/todays_special.jpg) 0 0 no-repeat;
+}
+#special p
+{
+font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+color:#ffd8a4;
+padding:0 0 0 100px;
+width:90px;
+}
+
+#pizza_search
+{
+width:195px;
+height:185px;
+background:url(images/pizza_search.jpg) 0 0 no-repeat;
+}
+#search
+{
+padding-left:20px;
+}
+.textbox
+{
+background:url(images/textbox.png) 0 11px no-repeat;
+width:119px;
+height:33px;
+border:none;
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#65180c;
+}
+.button
+{
+background:url(images/search.png) 0 0 no-repeat;
+width:48px;
+height:47px;
+border:none;
+}
+
+#pizza_search p
+{
+font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+color:#ffd8a4;
+padding:10px 10px 0 10px;
+}
+
+#ad
+{
+padding:14px;
+}
+
+*/
+
+
+#footer{
+	background:url(++theme++pizzaria.theme/images/footer_bg.jpg) 0 0 repeat-x;
+	width:100%;
+	height:80px;
+}
+#foot{
+	margin:0 auto;
+	width:500px;
+	padding-top:10px;
+}
+#foot ul li{
+	margin:0 auto;
+	width:100px;
+	font: normal 11px/30px Verdana, Arial, Helvetica, sans-serif;
+	color:#EB3F01;
+	float:left;
+}
+#foot ul li a{
+	text-decoration:none;
+	color:#ffc983;
+}
+#foot ul li a:hover{
+	text-decoration:none;
+	color:#FFF;
+}
+#foot p{
+	font: normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	*float:left;
+	*padding-left:100px;
+}
+#dum{
+	color:#ff743a;
+	text-decoration:none;
+}

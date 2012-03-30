@@ -1,0 +1,12 @@
+<tal:def define="prods viewlet/getProdutos|python: []">
+	<div id="food_categories"><br />
+		<tal:rep repeat="obj python:prods[:5]">
+			<p><a tal:define="item obj/getObject|nothing" 
+				  tal:attributes="href item/absolute_url|nothing"
+				  tal:content="item/title|nothing">Tuscan Salami</a></p>
+			
+		</tal:rep>
+	  <div style="border-bottom:1px dotted #fefefe; width:230px; margin-left:29px;"></div>
+	 </div>	
+	
+</tal:def>

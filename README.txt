@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Content Pizzaria
+Thema of Pizzaria
 
 Sistema de gerenciamento de uma pizzaria
 
