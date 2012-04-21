@@ -1,0 +1,57 @@
+<html metal:use-macro="here/main_template/macros/master">
+	<head>
+		<metal:styleslot fill-slot="style_slot">
+    		<link rel="stylesheet" href="" type="text/css" tal:attributes="href string:${context/portal_url|nothing}/++theme++pizzaria.theme/css/home.css">
+		</metal:styleslot>
+		
+	</head>
+    <body >
+        <div metal:fill-slot="main" style="margin: auto; width: 608px; ">
+	    	<div id="delivery">
+        		<h1>Os melhores serviços de entrega</h1>
+	            <ul>
+	            	<li class="style1">Escolha o recheio</li>
+					<li class="style2">Faça e Encomende</li>
+					<li class="style3">Apreciar o sabor excelente</li>
+	            </ul>
+        	</div>   
+	        <div id="para">
+	        	<p>Somos apaixonados por uma boa pizza! Sentimos prazer em atender aos desejos de nossos clientes!
+					Inovação: oferecemos a Pizza "À Moda do Cliente" onde ele poderá escolher até 04 ingredientes do 
+					cardápio para compor sua pizza e, além dos sabores tradicionais criamos também: Pizza de Cogumelos (com shimeji),
+					 de Frango Xadrez e de Abóbora com Carne Seca. Deliciosas! <br /><br />
+					 Nossa massa é crocante e o molho de tomate temperado e bem apurado. Utilizamos produtos selecionados e de primeiríssima
+					  qualidade. Muito bem recheada. Oferecemos também a opção em massa integral.
+				 </p>
+	        </div>  
+	        <table id="cont">
+	        	<tr>
+		        	<td valign="top" id="offer">
+		           	  <h1>Oferta quentinha!</h1>
+		              <h2>Economize diheiro</h2>
+		              <p>ON-LINE COM OFERTAS</p>
+					  <div class="more"><a tal:attributes="href string:${context/portal_url}/cardapio">Mais</a></div>
+	          		</td>
+	            	<td valign="top" id="special">
+	           	  		<h1>Oferta de Hojel</h1>
+		                <h3>Prreço R$20,00</h3>
+		                <h3 style="padding-left:90px;"><img src="/++theme++pizzaria.theme/images/cart.png" alt="Cart" />Compré Já</h3>
+		                
+	            	</td>
+		            <td valign="top" id="pizza_search">
+		           	  <h1>Busca Pizza</h1>
+		                <p>Pesquise os produtos que voce esta procurando.</p>
+		                <div id="search">
+		                <p class="style2"><b>Digite o sabor:</b></p>
+		                <form name="" action="/search" method="post">
+			                <input type="text" name="SearchableText" class="textbox" />
+			                <input type="button" class="button" />
+		                </form>
+		                </div>
+		            </td>
+	        	</tr>
+	        </table> 
+		
+        </div>
+    </body>
+</html>

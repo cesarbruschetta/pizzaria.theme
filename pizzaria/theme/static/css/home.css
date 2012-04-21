@@ -1,0 +1,112 @@
+#content{
+    background:#65180c !important;
+    
+}
+
+#delivery{
+    background:url(/++theme++pizzaria.theme/images/pizza_plaza.jpg) 0 0 no-repeat;
+    width:608px;
+    height:224px;
+}
+#delivery h1 {
+    font: bold 25px/18px Arial, Helvetica, sans-serif;
+    color:#bc1400;
+    padding:30px 0 0 150px;
+}
+#delivery ul{
+    padding-top:20px;
+}
+#delivery ul li{
+    display:block;
+    padding:5px 0 0 220px;
+    font: normal 18px/30px Arial, Helvetica, sans-serif;
+    background:url(/++theme++pizzaria.theme/images/bullet.png) 200px 13px no-repeat;
+}
+#para p{
+    font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+    color:#fad18e;
+    padding:10px;
+}
+
+#cont{
+    width:608px;
+}
+#cont h1{
+    font:bold 18px/18px Arial, Helvetica, sans-serif;
+    color:#fff;
+    padding:20px 0 0 20px;
+}
+#cont h2{
+    font:bold 18px/18px Arial, Helvetica, sans-serif;
+    color:#e9b156;
+    padding:10px 0 0 30px;
+}
+#cont h3{
+    font:bold 14px/18px Arial, Helvetica, sans-serif;
+    color:#e9b156;
+    padding:10px 0 0 30px;
+}
+#offer{
+    width:195px;
+    height:185px;
+    background:url(/++theme++pizzaria.theme/images/hot_offer.jpg) 0 0 no-repeat;
+}
+#offer p{
+    font:bold 14px/20px Arial, Helvetica, sans-serif;
+    color:#f7a70a;
+    padding-left:50% !important;
+    background-color: none;
+}
+#offer .more{
+    background:url(/++theme++pizzaria.theme/images/button.jpg) 125px 0 no-repeat;
+    width:61px;
+    height:20px;
+    font:normal 12px/18px Arial, Helvetica, sans-serif;
+    padding-left:140px;
+}
+#offer .more a{
+    color:#670b00;
+    text-decoration:none;
+}
+
+#special{
+    width:195px;
+    height:185px;
+    background:url(/++theme++pizzaria.theme/images/todays_special.jpg) 0 0 no-repeat;
+}
+#special p{
+    font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+    color:#ffd8a4;
+    padding:0 0 0 100px;
+    width:90px;
+}
+
+#pizza_search{
+    width:195px;
+    height:185px;
+    background:url(/++theme++pizzaria.theme/images/pizza_search.jpg) 0 0 no-repeat;
+}
+#search{
+    padding-left:20px;
+}
+.textbox{
+    background:url(/++theme++pizzaria.theme/images/textbox.png) 0 11px no-repeat;
+    width:119px;
+    height:33px;
+    border:none;
+    font:normal 12px/18px Arial, Helvetica, sans-serif;
+    color:#65180c;
+}
+.button{
+    background:url(/++theme++pizzaria.theme/images/search.png) 0 0 no-repeat;
+    width:49px;
+    height:47px;
+    border:none;
+}
+
+#pizza_search p{
+    font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+    color:#ffd8a4;
+    padding:10px 10px 0 10px !important;
+    margin: 0 !important;
+}
